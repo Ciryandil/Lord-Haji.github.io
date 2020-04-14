@@ -1,0 +1,91 @@
+@font-face {
+	font-family: opensans;
+	src: url(open-sans.regular.ttf);
+}
+
+@font-face {
+	font-family: exo;
+	src: url(exo.regular.otf);
+	font-weight: bold;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: exo, Arial, Verdana, sans-serif;
+}
+
+#uselessbutton {
+	width: 150px;
+	height: 50px;
+	background-color: #00a4e0;
+	border-radius: 30px;
+	border: none;
+	color: white;
+	font-size: 18px;
+	font-family: opensans, Arial;
+	font-weight: bold;
+	transition: background-color 0.5s;
+}
+
+#uselessbutton:hover {
+	background-color: #006cb5;
+}
+
+#search {
+	margin-left: auto; 
+	margin-right: auto;
+	width: 300px; 
+	height: 40px; 
+	text-align: center;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	border-radius: 5px; 
+	box-shadow: inset 1px 1px rgba(0,0,0,0.1);
+	transition: box-shadow ease-in-out 0.1s, border-color ease-in-out 0.1s;
+}
+
+.mainbox {
+	left: 0;
+	top: 0;
+	z-index: -1;
+	padding-right: 15%;
+	padding-left: 15%;
+	margin-top: 10px;
+	width: 70%;
+	height: 94%;
+	background: url(colorballs.png) no-repeat 0px -90px;
+	background-size: 100%;
+	position: absolute;
+	padding-top: 30px; 
+	text-align: center;
+	box-shadow: 3px 3px 20px black;
+}
+
+.navbar {
+	list-style-type: none;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	background: black;
+	border-bottom: 1px solid blue;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: 6%;
+	position: fixed;
+	overflow: hidden;
+}
+
+li {
+	padding-top: 10px; 
+	text-align: relative;
+	float: left;
+	color: white;
+	width: 8%;
+	font-family: exo, Arial;
+	height: 100%;
+	font-weight: bold;
+	transition: color 0.3s;
+	cursor: pointer;
+}
